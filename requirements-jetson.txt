@@ -1,0 +1,6 @@
+# Jetson Nano (JetPack 4.6, Python 3.6). numpy/scipy are easiest from apt:
+#   sudo apt-get install python3-numpy python3-scipy python3-pip
+numpy>=1.13
+scipy>=0.19
+spidev>=3.4      # --source spi    (MAX30003 on the 40-pin header)
+pyserial>=3.4    # --source serial (MAX30003 on an Arduino / ESP32 over USB)

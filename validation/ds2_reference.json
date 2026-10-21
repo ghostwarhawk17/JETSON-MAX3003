@@ -1,0 +1,706 @@
+{
+ "args": {
+  "mode": "reference",
+  "records": null,
+  "set": "DS2",
+  "include_222": false,
+  "processed": "C:\\MTP_revised-20260911T082811Z-1-001\\MTP_revised\\processed",
+  "bundle": "C:\\MTP_revised-20260911T082811Z-1-001\\MTP_revised\\deploy\\model\\mpfb_180hz_seed7.npz",
+  "device_fs": null,
+  "lookahead": 3.0,
+  "norm_window": 300.0,
+  "warmup": 10.0,
+  "fiducial": "abs",
+  "chunk": 97,
+  "workers": 14,
+  "check_against": "results_full_ds2/180Hz_seed7.npz",
+  "out": "deploy/validation/ds2_reference.json"
+ },
+ "total": {
+  "accuracy": 0.9875467264765566,
+  "macro_f1": 0.9438965352191317,
+  "cm": [
+   [
+    41818,
+    65,
+    84
+   ],
+   [
+    241,
+    1341,
+    46
+   ],
+   [
+    137,
+    10,
+    3073
+   ]
+  ],
+  "se_N": 0.9964495913455811,
+  "ppv_N": 0.991041804910418,
+  "se_S": 0.8237100737100738,
+  "ppv_S": 0.9470338983050848,
+  "se_V": 0.9543478260869566,
+  "ppv_V": 0.9594130502653762
+ },
+ "detection": {
+  "tp": 47210,
+  "fn": 0,
+  "fp": 0
+ },
+ "scored": 46815,
+ "aami_beats": 46815,
+ "records": [
+  {
+   "record": "100",
+   "cm": [
+    [
+     2237,
+     0,
+     0
+    ],
+    [
+     0,
+     33,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ],
+   "det": {
+    "tp": 2271,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 2271,
+   "aami_scored": 2271,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.8849830627441406,
+   "latency_median_s": 1.8583333333333485
+  },
+  {
+   "record": "103",
+   "cm": [
+    [
+     2080,
+     1,
+     0
+    ],
+    [
+     1,
+     1,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ]
+   ],
+   "det": {
+    "tp": 2083,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 2083,
+   "aami_scored": 2083,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.6950662136077881,
+   "latency_median_s": 1.9250000000000682
+  },
+  {
+   "record": "105",
+   "cm": [
+    [
+     2479,
+     0,
+     47
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     2,
+     39
+    ]
+   ],
+   "det": {
+    "tp": 2572,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 2567,
+   "aami_scored": 2567,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.9397716522216797,
+   "latency_median_s": 1.7666666666666515
+  },
+  {
+   "record": "111",
+   "cm": [
+    [
+     2120,
+     0,
+     3
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ],
+   "det": {
+    "tp": 2124,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 2124,
+   "aami_scored": 2124,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.7165758609771729,
+   "latency_median_s": 1.9069444444444343
+  },
+  {
+   "record": "113",
+   "cm": [
+    [
+     1767,
+     21,
+     0
+    ],
+    [
+     0,
+     6,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ]
+   ],
+   "det": {
+    "tp": 1794,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 1794,
+   "aami_scored": 1794,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.729895830154419,
+   "latency_median_s": 2.0666666666667055
+  },
+  {
+   "record": "117",
+   "cm": [
+    [
+     1533,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ]
+   ],
+   "det": {
+    "tp": 1534,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 1534,
+   "aami_scored": 1534,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.6025748252868652,
+   "latency_median_s": 2.2361111111111143
+  },
+  {
+   "record": "121",
+   "cm": [
+    [
+     1855,
+     0,
+     5
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1
+    ]
+   ],
+   "det": {
+    "tp": 1862,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 1862,
+   "aami_scored": 1862,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.686842679977417,
+   "latency_median_s": 2.0333333333333883
+  },
+  {
+   "record": "123",
+   "cm": [
+    [
+     1512,
+     2,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     3
+    ]
+   ],
+   "det": {
+    "tp": 1517,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 1517,
+   "aami_scored": 1517,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.40138745307922363,
+   "latency_median_s": 2.25
+  },
+  {
+   "record": "200",
+   "cm": [
+    [
+     1739,
+     3,
+     0
+    ],
+    [
+     27,
+     2,
+     1
+    ],
+    [
+     9,
+     0,
+     817
+    ]
+   ],
+   "det": {
+    "tp": 2600,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 2598,
+   "aami_scored": 2598,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.7624735832214355,
+   "latency_median_s": 1.7375000000000682
+  },
+  {
+   "record": "202",
+   "cm": [
+    [
+     2044,
+     16,
+     0
+    ],
+    [
+     30,
+     16,
+     9
+    ],
+    [
+     1,
+     0,
+     18
+    ]
+   ],
+   "det": {
+    "tp": 2135,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 2134,
+   "aami_scored": 2134,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.7413544654846191,
+   "latency_median_s": 1.944444444444457
+  },
+  {
+   "record": "210",
+   "cm": [
+    [
+     2416,
+     0,
+     5
+    ],
+    [
+     9,
+     2,
+     11
+    ],
+    [
+     34,
+     0,
+     161
+    ]
+   ],
+   "det": {
+    "tp": 2648,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 2638,
+   "aami_scored": 2638,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 1.0201210975646973,
+   "latency_median_s": 1.7416666666666742
+  },
+  {
+   "record": "212",
+   "cm": [
+    [
+     2747,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ]
+   ],
+   "det": {
+    "tp": 2747,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 2747,
+   "aami_scored": 2747,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.888298749923706,
+   "latency_median_s": 1.716666666666697
+  },
+  {
+   "record": "213",
+   "cm": [
+    [
+     2638,
+     0,
+     1
+    ],
+    [
+     27,
+     0,
+     1
+    ],
+    [
+     43,
+     0,
+     177
+    ]
+   ],
+   "det": {
+    "tp": 3249,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 2887,
+   "aami_scored": 2887,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.9074535369873047,
+   "latency_median_s": 1.6166666666666671
+  },
+  {
+   "record": "214",
+   "cm": [
+    [
+     1998,
+     0,
+     3
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     33,
+     6,
+     217
+    ]
+   ],
+   "det": {
+    "tp": 2260,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 2257,
+   "aami_scored": 2257,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.8009843826293945,
+   "latency_median_s": 1.8527777777777779
+  },
+  {
+   "record": "219",
+   "cm": [
+    [
+     2077,
+     0,
+     5
+    ],
+    [
+     7,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     63
+    ]
+   ],
+   "det": {
+    "tp": 2154,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 2153,
+   "aami_scored": 2153,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.7052409648895264,
+   "latency_median_s": 1.8611111111110858
+  },
+  {
+   "record": "221",
+   "cm": [
+    [
+     2031,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     395
+    ]
+   ],
+   "det": {
+    "tp": 2427,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 2427,
+   "aami_scored": 2427,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.7100226879119873,
+   "latency_median_s": 1.7861111111111114
+  },
+  {
+   "record": "228",
+   "cm": [
+    [
+     1676,
+     0,
+     12
+    ],
+    [
+     3,
+     0,
+     0
+    ],
+    [
+     3,
+     1,
+     358
+    ]
+   ],
+   "det": {
+    "tp": 2053,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 2053,
+   "aami_scored": 2053,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.5953724384307861,
+   "latency_median_s": 1.9361111111111313
+  },
+  {
+   "record": "231",
+   "cm": [
+    [
+     1545,
+     21,
+     1
+    ],
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     2
+    ]
+   ],
+   "det": {
+    "tp": 1570,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 1570,
+   "aami_scored": 1570,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.5803971290588379,
+   "latency_median_s": 2.073611111111063
+  },
+  {
+   "record": "232",
+   "cm": [
+    [
+     396,
+     1,
+     1
+    ],
+    [
+     78,
+     1281,
+     23
+    ],
+    [
+     0,
+     0,
+     0
+    ]
+   ],
+   "det": {
+    "tp": 1780,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 1780,
+   "aami_scored": 1780,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.6222119331359863,
+   "latency_median_s": 1.823611111111063
+  },
+  {
+   "record": "233",
+   "cm": [
+    [
+     2228,
+     0,
+     1
+    ],
+    [
+     6,
+     0,
+     1
+    ],
+    [
+     12,
+     0,
+     818
+    ]
+   ],
+   "det": {
+    "tp": 3077,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 3066,
+   "aami_scored": 3066,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.7733535766601562,
+   "latency_median_s": 1.6416666666666515
+  },
+  {
+   "record": "234",
+   "cm": [
+    [
+     2700,
+     0,
+     0
+    ],
+    [
+     50,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     2
+    ]
+   ],
+   "det": {
+    "tp": 2753,
+    "fn": 0,
+    "fp": 0
+   },
+   "aami_beats": 2753,
+   "aami_scored": 2753,
+   "skipped_warmup": 0,
+   "seconds_ecg": 1805.5555555555557,
+   "seconds_cpu": 0.6914041042327881,
+   "latency_median_s": 1.7138888888889596
+  }
+ ]
+}
